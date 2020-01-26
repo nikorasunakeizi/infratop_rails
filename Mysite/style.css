@@ -25,6 +25,10 @@ nav {
   margin: 0 auto;
 }
 
+.nav-box i {
+  color: rgba( 0, 0, 0, 0); /* 背景色を半透明の黒にする */
+}
+
 .nav-image {
   float: left;
   height: 70px;
@@ -239,6 +243,7 @@ main {
   margin-right: 20px;
 }
 
+/*フッター*/
 footer {
   width: 100%;
   height: 60px;
@@ -251,6 +256,150 @@ footer {
 	line-height: 60px;
 }
 
+
+
+@media screen and (max-width:768px) {
+/*ナビゲーション*/
+.nav-box {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-image {
+  height: 50px;
+}
+
+.ham {
+  float: right;
+}
+
+.nav-box i {
+  display: block;
+  font-size: 25px;
+  color: #FAFAFA;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid white;
+}
+
+.nav-list-item {
+  display: none;
+}
+
+/*メイン*/
+main {
+  background-image: url(img/code.png);
+}
+
+.main-visual-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-visual-tytle {
+  font-size: 40px;
+}
+
+.main-visual-text {
+  font-size: 18px;
+}
+
+/*ポートフォリオ*/
+.portfolio-box {
+	width: 90%;
+}
+
+.p-image{
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.p-image:nth-child(1) {
+  background-image: url(img/websuku.png);
+}
+
+.p-image:nth-child(2) {
+  background-image: url(img/webcamp.png);
+}
+
+.p-image:nth-child(3) {
+  background-image: url(img/webcamp-mother.png);
+  margin-right: auto;
+}
+
+.p-image:nth-child(4) {
+  display: none;
+}
+
+.p-image:nth-child(5) {
+  display: none;
+}
+
+.p-image:nth-child(6) {
+  display: none;
+}
+
+/*フィーチャー*/
+.feature {
+	width: 90%;
+}
+
+.feature-content {
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.feature-content:nth-child(3){
+  margin: 0 auto;
+}
+
+/*プロフィール*/
+.profile-box {
+	width: 90%;
+}
+
+.profile-image-box, .profile-content-text {
+  float: none;
+  margin: 0 auto;
+}
+
+.myname {
+	margin-top: 20px;
+}
+
+.myname, .myskills, .content-text, .contact-box {
+  text-align: center;
+}
+
+
+/*コンタクト*/
+.contact {
+	width: 90%;
+}
+
+.contact-box {
+	margin-bottom: 90px;
+}
+
+.address, .sns-box {
+	float: none;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+.mail {
+  margin-top: 30px;
+}
+
+.mail-content, .tel-content {
+	margin-bottom: 20px;
+}
+
+.social i {
+  margin-right: 8px;
+}
 
 
 
