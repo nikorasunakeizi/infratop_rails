@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav {
+  background-color: #EC715F;
+}
+
+.nav-box {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.nav-image {
+  float: left;
+  height: 70px;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  line-height: 70px;
+  font-size: 16px;
+  color: #FAFAFA;
+  margin: 0 30px;
+}
+
+main {
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.main-visual-content {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main-visual-tytle {
+  margin-bottom: 10px;
+  font-size: 64px;
+  color: #FAFAFA;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #FAFAFA;
+}
+
+.portflio {
+	background-color: #ECEFF1;
+}
+
+.portfolio-box {
+	width: 920px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.portfolio-tytle {
+	padding-top: 90px;
+	padding-bottom: 8px;
+	font-size: 32px;
+	color: #000000;
+}
+
+.tytle-line {
+	height: 3px;
+	width: 70px;
+	margin: 0 auto;
+	background-color: #EC715F;
+}
+
+.portfolio-text {
+	margin: 30px auto;
+	font-size: 16px;
+	color: #000000;
+}
+
+.p-image{
+  float: left;
+  height: 250px;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.p-image:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.p-image:nth-child(2) {
+  background-image: url(img/websuku.png);
+}
+
+.p-image:nth-child(3) {
+  background-image: url(img/write.jpg);
+  margin-right: 0;
+}
+
+.p-image:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+
+.p-image:nth-child(5) {
+  background-image: url(img/talk.jpg);
+}
+
+.p-image:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+  margin-right: 0;
+}
